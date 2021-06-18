@@ -1,4 +1,0 @@
-请求接口地址：/user/center/v1/perm/create
-请求方式：post
-请求头部：{"Content-Type":"application/json"}
-请求参数：{"requestId":"","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJjbGllbnRUeXBlIjoiVVNFUiIsImxvZ2luTmFtZSI6Iui2hee6p-euoeeQhuWRmCIsImV4cCI6MTYyNDAxNDEzOSwibG9naW5ObyI6ImJVWlJieUQ2aFgifQ.neUES7EtU7maFXWfnEwVsYTqGe2H4C-wPwwVayqdUhC1R6UtHzdkFZGJm6L9ANprAjPUvvbDS8CPZjNBoIem4yQFf90uBh7eqh7Y0Sd3f1PyO6ZK3vNeXpJbN9EEl6AVzCjnz4xwDgPVCR2i_fxfGmA0QSqyQ8pdk77FMNp7tHba6DdyrlXvicrsyijj96_jkuAarAGhRzSivGGbYzDN1olWpldCTQnCDecAnkv3CMW_eFdEWJ76xuY-ZIdenJGQA4LaCPva_B8_J1KDzWUvZmdp9FvWI2Mefkm-offW8pHqZdwlXs7kYFqHGCcYmkHmYjyc0osc4PiLMw8o7hN98g","tenantCode":"System","permCode":"perm_query_333","permName":"权限查询1","relativeUrl":"","dataPermValidRules":{},"parentPermCode":""}

@@ -1,5 +1,0 @@
-请求接口地址：/user/center/v1/login/console/account
-请求方式：post
-请求头部：{"Content-Type":"application/json"}
-请求参数：{"requestId":"","accountNo":"bUZRbyD6hX","password":"9GPeN0kcS4j"}
-期望结果：{eq=[code, 3]}{eq=[success, false]}
