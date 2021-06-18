@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [厨房安全v1.0]">
+  <listeners>
+    <listener class-name="com.helinfengxs.util.ZTestReport"/>
+  </listeners>
+  <test name="kitchen_api(failed)">
+    <classes>
+      <class name="com.helinfengxs.cases.LoginCases">
+        <methods>
+          <include name="loginCorrect"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.helinfengxs.cases.LoginCases01 -->
+    </classes>
+  </test> <!-- kitchen_api(failed) -->
+</suite> <!-- Failed suite [厨房安全v1.0] -->

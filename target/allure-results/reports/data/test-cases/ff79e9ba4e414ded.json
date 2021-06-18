@@ -1,0 +1,93 @@
+{
+  "uid" : "ff79e9ba4e414ded",
+  "name" : "创建员工",
+  "fullName" : "com.helinfengxs.cases.employees.EmployeesCreateCases.employeesCreate",
+  "historyId" : "d591da3154f57e5879376162d60ef260",
+  "time" : {
+    "start" : 1624004821530,
+    "stop" : 1624004824174,
+    "duration" : 2644
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1624004820712
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  }, {
+    "name" : "init",
+    "time" : {
+      "start" : 1624004820715,
+      "stop" : 1624004821466,
+      "duration" : 751
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.helinfengxs.cases.employees.EmployeesCreateCases"
+  }, {
+    "name" : "testClass",
+    "value" : "com.helinfengxs.cases.employees.EmployeesCreateCases"
+  }, {
+    "name" : "testMethod",
+    "value" : "employeesCreate"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "kitchen_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.helinfengxs.cases.employees.EmployeesCreateCases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CD2E1TO"
+  }, {
+    "name" : "thread",
+    "value" : "22820@DESKTOP-CD2E1TO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "创建员工"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff79e9ba4e414ded.json",
+  "parameterValues" : [ ]
+}

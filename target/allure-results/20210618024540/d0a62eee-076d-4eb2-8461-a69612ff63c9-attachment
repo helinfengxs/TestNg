@@ -1,0 +1,29 @@
+/user/center/v1/employee/create
+{
+	"param":{
+		"idCard":"123456789012345678",
+		"extendData":{
+			"healthCertificate":{
+				"effectiveAge":1,
+				"serialNumber":"1234567890",
+				"releaseDate":"2021-05-25"
+			}
+		},
+		"sex":"male",
+		"mobile":"18367130982",
+		"roleCodes":[
+			"admin001"
+		],
+		"tenantCode":"System",
+		"empNo":"zhangsan",
+		"createAccount":true,
+		"token":"admin1",
+		"password":"Cx12345678.c",
+		"areaId":"test_base_sample",
+		"requestId":"",
+		"accountNo":"测试账户",
+		"name":"张三",
+		"poiId":"yixi001",
+		"age":57
+	}
+}

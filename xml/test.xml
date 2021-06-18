@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="厨房安全v1.0">
+  <test thread-count="5" name="kitchen_api">
+    <classes>
+<!--      <class name="com.kitchen.cases.login.LoginCases">-->
+<!--      </class> &lt;!&ndash; com.kitchen.cases.Test &ndash;&gt;-->
+        <class name="com.helinfengxs.cases.login.LoginCases">
+        </class>
+       <!-- <class name="com.kitchen.cases.role.RoleCreateCases">
+        </class>
+        <class name="com.kitchen.cases.role.RoleUpdateCases">
+        </class>
+        <class name="com.kitchen.cases.role.RoleQueryCases">
+        </class>
+        <class name="com.kitchen.cases.role.RoleQueryUserCases">
+        </class>
+        <class name="com.kitchen.cases.role.RoleDeleteCases">
+        </class>
+        <class name="com.kitchen.cases.account.AccounteCreateCases">
+        </class>
+        <class name="com.kitchen.cases.account.AccountUpdateCases">
+        </class>
+        <class name="com.kitchen.cases.account.AccountQueryCases">
+        </class>
+        <class name="com.kitchen.cases.account.AccountQueryDetailCases">
+        </class>
+        <class name="com.kitchen.cases.account.AccountDisableCases">
+        </class>
+        <class name="com.kitchen.cases.account.AccountEnableCases">
+        </class>
+        <class name="com.kitchen.cases.account.AccountPWDCases">
+        </class>
+        <class name="com.kitchen.cases.account.PWDmodifyCases">
+        </class>
+
+        <class name="com.kitchen.cases.account.AccountInnerCases">
+        </class>
+
+        <class name="com.kitchen.cases.account.AccountDeleteCases">
+        </class>-->
+        <class name="com.helinfengxs.cases.perm.PermCreateCases">
+        </class>
+        <class name="com.helinfengxs.cases.perm.PermUpdateCases">
+        </class>
+        <class name="com.helinfengxs.cases.perm.PermQueryCases">
+        </class>
+        <class name="com.helinfengxs.cases.perm.PermGrantCases">
+        </class>
+        <class name="com.helinfengxs.cases.perm.PermDeleteCases">
+        </class>
+        <!--内部接口-->
+        <class name="com.helinfengxs.cases.perm.PermInnerQueryCases">
+        </class>
+        <class name="com.helinfengxs.cases.employees.EmployeesCreateCases">
+        </class>
+        <class name="com.helinfengxs.cases.employees.EmployeesDeleteCases">
+        </class>
+
+    </classes>
+  </test> <!-- kitchen_api -->
+  <listeners>
+    <listener class-name="com.helinfengxs.util.ZTestReport"/>
+  </listeners>
+</suite> <!-- Default Suite -->

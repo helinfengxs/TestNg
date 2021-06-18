@@ -1,0 +1,106 @@
+{
+  "uid" : "d188f7901c8d85fd",
+  "name" : "查询权限",
+  "fullName" : "com.helinfengxs.cases.perm.PermQueryCases.permQuery",
+  "historyId" : "12dd7de70f798e122a3dd0b5d463a572",
+  "time" : {
+    "start" : 1624006439709,
+    "stop" : 1624006440614,
+    "duration" : 905
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1624006439701
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  }, {
+    "name" : "init",
+    "time" : {
+      "start" : 1624006439701,
+      "stop" : 1624006439701,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7d1a8eb4952fb597",
+      "name" : "接口信息",
+      "source" : "7d1a8eb4952fb597.txt",
+      "type" : "text/plain",
+      "size" : 694
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.helinfengxs.cases.perm.PermQueryCases"
+  }, {
+    "name" : "testClass",
+    "value" : "com.helinfengxs.cases.perm.PermQueryCases"
+  }, {
+    "name" : "testMethod",
+    "value" : "permQuery"
+  }, {
+    "name" : "parentSuite",
+    "value" : "厨房安全v1.0"
+  }, {
+    "name" : "suite",
+    "value" : "kitchen_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.helinfengxs.cases.perm.PermQueryCases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CD2E1TO"
+  }, {
+    "name" : "thread",
+    "value" : "13252@DESKTOP-CD2E1TO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d188f7901c8d85fd.json",
+  "parameterValues" : [ ]
+}

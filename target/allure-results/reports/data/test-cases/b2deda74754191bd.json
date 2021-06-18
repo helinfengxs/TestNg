@@ -1,0 +1,106 @@
+{
+  "uid" : "b2deda74754191bd",
+  "name" : "登录密码错误",
+  "fullName" : "com.helinfengxs.cases.login.LoginCases.passError",
+  "historyId" : "15d707cda3469d3ff1a3242e03c8f971",
+  "time" : {
+    "start" : 1624006367734,
+    "stop" : 1624006368951,
+    "duration" : 1217
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "根据yaml文件中的模块名得到该模块所有用例数据以及初始化url",
+    "time" : {
+      "start" : 1624006361901
+    },
+    "description" : "根据yaml文件中的模块名得到该模块所有用例数据以及初始化url",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  }, {
+    "name" : "根据yaml文件中的模块名得到该模块所有用例数据以及初始化url",
+    "time" : {
+      "start" : 1624006361903,
+      "stop" : 1624006362871,
+      "duration" : 968
+    },
+    "description" : "根据yaml文件中的模块名得到该模块所有用例数据以及初始化url",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5cdfff6156da6bd1",
+      "name" : "接口信息",
+      "source" : "5cdfff6156da6bd1.txt",
+      "type" : "text/plain",
+      "size" : 208
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.helinfengxs.cases.login.LoginCases"
+  }, {
+    "name" : "testClass",
+    "value" : "com.helinfengxs.cases.login.LoginCases"
+  }, {
+    "name" : "testMethod",
+    "value" : "passError"
+  }, {
+    "name" : "parentSuite",
+    "value" : "厨房安全v1.0"
+  }, {
+    "name" : "suite",
+    "value" : "kitchen_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.helinfengxs.cases.login.LoginCases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CD2E1TO"
+  }, {
+    "name" : "thread",
+    "value" : "16172@DESKTOP-CD2E1TO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2deda74754191bd.json",
+  "parameterValues" : [ ]
+}

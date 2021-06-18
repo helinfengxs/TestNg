@@ -1,0 +1,1 @@
+[2021-06-01 17:06:48.556]-- 请求地址:【projectservice/project/pageProjectCondition/1/5】   请求方式：post 参数:{json={title=厨房安全}}  期望结果：[{eq=[success, true]}, {eq=[message, 成功]}]  实际结果：{"success":false,"code":20001,"message":"服务器处理异常","data":{}} 测试结果：失败

@@ -1,0 +1,4 @@
+请求接口地址：/user/center/v1/employee/create
+请求方式：upload
+请求头部：{"Content-Type":"multipart/form-data"}
+请求参数：{"param":{"requestId":"","token":"admin1","tenantCode":"System","poiId":"yixi001","areaId":"test_base_sample","empNo":"zhangsan","name":"张三","sex":"male","age":57,"idCard":"123456789012345678","mobile":"18367130982","createAccount":true,"accountNo":"测试账户","password":"Cx12345678.c","roleCodes":["admin001"],"extendData":{"healthCertificate":{"serialNumber":"1234567890","releaseDate":"2021-05-25","effectiveAge":1}}}}

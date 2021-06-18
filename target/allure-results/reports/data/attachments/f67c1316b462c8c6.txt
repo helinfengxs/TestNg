@@ -1,0 +1,4 @@
+请求接口地址：/user/center/v1/perm/grant
+请求方式：post
+请求头部：{"Content-Type":"application/json"}
+请求参数：{"requestId":"","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJjbGllbnRUeXBlIjoiVVNFUiIsImxvZ2luTmFtZSI6Iui2hee6p-euoeeQhuWRmCIsImV4cCI6MTYyNDAxNjA0NywibG9naW5ObyI6ImJVWlJieUQ2aFgifQ.2QjcR-eFAW_xbR7SVLg0WSpEMRgJGvMtwS_ODlwKIs4rkfTouiwUtOFCNI55mO1VyZ3oLO6AiznR_ruci1DTjkLKZT96rXgzORPFp6859qNa2akF_CZ1rbJObpA0ak1p1DXXAr2Ff1XhYsvP1RTGss8BZwT2DakPbHQokmYyqju2A7_V6NYwEApkhB87bdhTchvYtzE60y9K1374dhDTO3700U2l8sU03jWvdTnn0jyz3Buau-JGj-ochl1RBoDwnJgxwKKN-a2FppOR-l5r6nmJGaK3xLJ5rlKF9ajkP2Dq3WG2phS4f5yS0_oMOyvYZ34r9uMZ4m7OTvm5CRCbOQ","tenantCode":"System","assignOwner":"System","permCodes":["perm_manager_333","perm_query"]}

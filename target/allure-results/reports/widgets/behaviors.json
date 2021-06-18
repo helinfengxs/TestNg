@@ -1,0 +1,26 @@
+{
+  "total" : 10,
+  "items" : [ {
+    "uid" : "9609070fde89934141da8444a116aeaf",
+    "name" : "删除员工用例",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d7ba0ad558a3fa124ae80d6a1ce1db9c",
+    "name" : "创建员工",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

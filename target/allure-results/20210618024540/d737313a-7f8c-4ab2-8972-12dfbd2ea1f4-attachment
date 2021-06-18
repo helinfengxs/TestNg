@@ -1,0 +1,4 @@
+请求接口地址：/user/center/v1/perm/update
+请求方式：post
+请求头部：{"Content-Type":"application/json"}
+请求参数：{"requestId":"","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJjbGllbnRUeXBlIjoiVVNFUiIsImxvZ2luTmFtZSI6Iui2hee6p-euoeeQhuWRmCIsImV4cCI6MTYyNDAxNjE1NSwibG9naW5ObyI6ImJVWlJieUQ2aFgifQ.nqulpy90BYKU476Hhc8-u21U-4XFx3ILnkErZhKjLjiahouPq2A1WBH4bc9L-ptNakDDNeId0KLPATH0g71RxAdnZpaIsojRz0cPxammVFMXx0bdQZfMmOhUMzC89z0KTlqI0mQzoS5vmb2aAowkMA4BDOF0EkszS-QsV5mWeqh7v6NDbTzN1f3iNZnEeInBMYp4O08eX8WU5rnoNCzq7zzTurPOfbxNcqNNLVtRVz2mjlL9e12mb-cgH4tquxlZFAr_5VwrefYzrGihFsERl9HnRSfvs9a3Kso4tz61HHebvTcp6IYcxw8vpNt5pNc1Q7BOpwEa1SUWSfBszLfulg","tenantCode":"System","permCode":"perm_query_333","permName":"修改权限查询","relativeUrl":"","dataPermValidRules":{},"parentPermCode":""}

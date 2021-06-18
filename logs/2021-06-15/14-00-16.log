@@ -1,0 +1,2 @@
+[2021-06-15 14:00:19.021]-- 请求地址:【/user/login】   请求方式：post 参数:null  期望结果：[{eq=[success, true]}, {eq=[message, 成功]}]  实际结果：{"success":true,"code":20000,"message":"成功","data":{"token":"admin"}} 测试结果：通过
+[2021-06-15 14:00:19.287]-- 请求地址:【/test/login】   请求方式：post 参数:{json={username=admin, password=admin1}}  期望结果：[{eq=[success, false]}, {eq=[mssage, 用户名或者密码错误]}]  实际结果：{"timestamp":"2021-06-15 14:00:19","status":404,"error":"Not Found","message":"No message available","path":"/test/login"} 测试结果：失败

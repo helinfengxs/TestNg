@@ -1,0 +1,115 @@
+{
+  "uid" : "69c18d67851bd6f7",
+  "name" : "创建员工",
+  "fullName" : "com.helinfengxs.cases.employees.EmployeesCreateCases.employeesCreate",
+  "historyId" : "d591da3154f57e5879376162d60ef260",
+  "time" : {
+    "start" : 1623986518363,
+    "stop" : 1623986521211,
+    "duration" : 2848
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1623986517534
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  }, {
+    "name" : "init",
+    "time" : {
+      "start" : 1623986517550,
+      "stop" : 1623986518301,
+      "duration" : 751
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3c75ac2e0e64232",
+      "name" : "请求报文",
+      "source" : "c3c75ac2e0e64232.txt",
+      "type" : "text/plain",
+      "size" : 547
+    }, {
+      "uid" : "8bb7b533b7c9a721",
+      "name" : "响应报文",
+      "source" : "8bb7b533b7c9a721.txt",
+      "type" : "text/plain",
+      "size" : 74
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.helinfengxs.cases.employees.EmployeesCreateCases"
+  }, {
+    "name" : "testClass",
+    "value" : "com.helinfengxs.cases.employees.EmployeesCreateCases"
+  }, {
+    "name" : "testMethod",
+    "value" : "employeesCreate"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "kitchen_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.helinfengxs.cases.employees.EmployeesCreateCases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CD2E1TO"
+  }, {
+    "name" : "thread",
+    "value" : "18964@DESKTOP-CD2E1TO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "创建员工"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69c18d67851bd6f7.json",
+  "parameterValues" : [ ]
+}

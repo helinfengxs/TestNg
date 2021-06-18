@@ -1,0 +1,101 @@
+[ {
+  "uid" : "8525a15a6bef8f90",
+  "name" : "登录密码错误",
+  "time" : {
+    "start" : 1624009527989,
+    "stop" : 1624009529219,
+    "duration" : 1230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5e88724f4e9b9b5",
+  "name" : "创建员工",
+  "time" : {
+    "start" : 1624009532784,
+    "stop" : 1624009533470,
+    "duration" : 686
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2e2a0e75691be9",
+  "name" : "权限授予",
+  "time" : {
+    "start" : 1624009531149,
+    "stop" : 1624009531667,
+    "duration" : 518
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3786739071c74602",
+  "name" : "修改权限",
+  "time" : {
+    "start" : 1624009529840,
+    "stop" : 1624009530434,
+    "duration" : 594
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d0f5adcef2c27ac",
+  "name" : "查询权限",
+  "time" : {
+    "start" : 1624009530445,
+    "stop" : 1624009531138,
+    "duration" : 693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "346698461e300b30",
+  "name" : "控制台账号密码登录",
+  "time" : {
+    "start" : 1624009523538,
+    "stop" : 1624009527898,
+    "duration" : 4360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "592c3c49fce577e9",
+  "name" : "删除员工",
+  "time" : {
+    "start" : 1624009533482,
+    "stop" : 1624009534020,
+    "duration" : 538
+  },
+  "status" : "failed",
+  "severity" : "blocker"
+}, {
+  "uid" : "589e55ef2d39a63d",
+  "name" : "资源地址查询",
+  "time" : {
+    "start" : 1624009532238,
+    "stop" : 1624009532771,
+    "duration" : 533
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a03c10c3a9abcc4a",
+  "name" : "创建权限",
+  "time" : {
+    "start" : 1624009529231,
+    "stop" : 1624009529826,
+    "duration" : 595
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6807bad14514cddc",
+  "name" : "删除权限",
+  "time" : {
+    "start" : 1624009531678,
+    "stop" : 1624009532227,
+    "duration" : 549
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,2 @@
+请求接口地址：/user/center/v1/perm/query
+请求方式：post

@@ -1,0 +1,327 @@
+{
+  "uid" : "d5e88724f4e9b9b5",
+  "name" : "创建员工",
+  "fullName" : "com.helinfengxs.cases.employees.EmployeesCreateCases.employeesCreate",
+  "historyId" : "d591da3154f57e5879376162d60ef260",
+  "time" : {
+    "start" : 1624009532784,
+    "stop" : 1624009533470,
+    "duration" : 686
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1624009532776
+    },
+    "description" : "",
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  }, {
+    "name" : "init",
+    "time" : {
+      "start" : 1624009532776,
+      "stop" : 1624009532776,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b6fc5e1772491edc",
+      "name" : "接口信息",
+      "source" : "b6fc5e1772491edc.txt",
+      "type" : "text/plain",
+      "size" : 613
+    }, {
+      "uid" : "f17731d6225b1b44",
+      "name" : "响应结果",
+      "source" : "f17731d6225b1b44.txt",
+      "type" : "text/plain",
+      "size" : 67
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.helinfengxs.cases.employees.EmployeesCreateCases"
+  }, {
+    "name" : "testClass",
+    "value" : "com.helinfengxs.cases.employees.EmployeesCreateCases"
+  }, {
+    "name" : "testMethod",
+    "value" : "employeesCreate"
+  }, {
+    "name" : "parentSuite",
+    "value" : "厨房安全v1.0"
+  }, {
+    "name" : "suite",
+    "value" : "kitchen_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.helinfengxs.cases.employees.EmployeesCreateCases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-CD2E1TO"
+  }, {
+    "name" : "thread",
+    "value" : "6388@DESKTOP-CD2E1TO.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "创建员工"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "84c92fe3935f3d10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624009353214,
+        "stop" : 1624009354003,
+        "duration" : 789
+      }
+    }, {
+      "uid" : "9a76eb94b30bd946",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624009246586,
+        "stop" : 1624009247342,
+        "duration" : 756
+      }
+    }, {
+      "uid" : "180aabf5631bde76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624008661793,
+        "stop" : 1624008662502,
+        "duration" : 709
+      }
+    }, {
+      "uid" : "5d753aee609fdd79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624008554618,
+        "stop" : 1624008555493,
+        "duration" : 875
+      }
+    }, {
+      "uid" : "908d12298c124644",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624008246106,
+        "stop" : 1624008246753,
+        "duration" : 647
+      }
+    }, {
+      "uid" : "a70bc53ede118084",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624006645391,
+        "stop" : 1624006646093,
+        "duration" : 702
+      }
+    }, {
+      "uid" : "e6e9908889cd96c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624006442433,
+        "stop" : 1624006443124,
+        "duration" : 691
+      }
+    }, {
+      "uid" : "2098f37835d85284",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624006372590,
+        "stop" : 1624006373277,
+        "duration" : 687
+      }
+    }, {
+      "uid" : "f066691ac6ab4ff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624006226182,
+        "stop" : 1624006226900,
+        "duration" : 718
+      }
+    }, {
+      "uid" : "420f7522d8c76b99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624005977314,
+        "stop" : 1624005978080,
+        "duration" : 766
+      }
+    }, {
+      "uid" : "c5ba55b3c9777197",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624004943137,
+        "stop" : 1624004943868,
+        "duration" : 731
+      }
+    }, {
+      "uid" : "ff79e9ba4e414ded",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624004821530,
+        "stop" : 1624004824174,
+        "duration" : 2644
+      }
+    }, {
+      "uid" : "a4d5ce2380cd787e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623998719356,
+        "stop" : 1623998722169,
+        "duration" : 2813
+      }
+    }, {
+      "uid" : "d8b2b6f42f8ae1b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623998677511,
+        "stop" : 1623998680098,
+        "duration" : 2587
+      }
+    }, {
+      "uid" : "bf287bb786de4c2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623998616346,
+        "stop" : 1623998619208,
+        "duration" : 2862
+      }
+    }, {
+      "uid" : "a454fd09cac53a5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623998572267,
+        "stop" : 1623998575263,
+        "duration" : 2996
+      }
+    }, {
+      "uid" : "2ea5cac9fccad6f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623998512139,
+        "stop" : 1623998515018,
+        "duration" : 2879
+      }
+    }, {
+      "uid" : "d813b7bf2a4822b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623987184851,
+        "stop" : 1623987187505,
+        "duration" : 2654
+      }
+    }, {
+      "uid" : "7bf1142650354e62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623987051264,
+        "stop" : 1623987054428,
+        "duration" : 3164
+      }
+    }, {
+      "uid" : "7a81aa50384c43ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623987023486,
+        "stop" : 1623987026485,
+        "duration" : 2999
+      }
+    }, {
+      "uid" : "69c18d67851bd6f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623986518363,
+        "stop" : 1623986521211,
+        "duration" : 2848
+      }
+    }, {
+      "uid" : "1839e0ccb5b65fad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623986386787,
+        "stop" : 1623986389365,
+        "duration" : 2578
+      }
+    }, {
+      "uid" : "d9d298a1fd0873fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623986315251,
+        "stop" : 1623986317863,
+        "duration" : 2612
+      }
+    }, {
+      "uid" : "bcf46ef0c75935e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623985357928,
+        "stop" : 1623985360823,
+        "duration" : 2895
+      }
+    }, {
+      "uid" : "9bdcb11832782955",
+      "status" : "broken",
+      "statusDetails" : "expect ':' at 0, actual =",
+      "time" : {
+        "start" : 1623985302494,
+        "stop" : 1623985302695,
+        "duration" : 201
+      }
+    }, {
+      "uid" : "9c9cb131ba3d13b5",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1623985270620,
+        "stop" : 1623985270634,
+        "duration" : 14
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5e88724f4e9b9b5.json",
+  "parameterValues" : [ ]
+}

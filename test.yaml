@@ -1,0 +1,100 @@
+- config:
+#   测试名称，用于测试报告标题
+    name: 接口测试
+#   全局参数，其他接口需要依赖时，直接使用$变量，例如$demo1
+    variables:
+      {
+        demo1: "1",
+        demo2: 2,
+        cookies: "abcd"
+      }
+#   测试用例公共请求信息
+    request:
+      #项目url
+      base_url: http://localhost:10086
+
+#模块名称
+- LoginCases:
+    #用例方法名称
+  - loginCorrect:
+      #用例名称
+      name: 正常登录
+      #请求内容
+      request:
+        url: /user/login
+        method: upload
+        header: {
+          Content-Type: application/json
+        }
+        #参数json格式提交 ; 表单提交 --- body: {username:"",password:""}
+        json: {
+          "accountNo": $demo1,
+          "password": "9GPeN0kcS4j3Gn7e"
+        }
+        multiPart: ["./image/01.jpg","./image/02.jpg"]
+        #需要提取的参数，并存放再全局参数列表中，便于后续其他接口提取，后续使用，使用$作为前置标识符
+        extract: [data.token]
+        #断言内容，状态码200，默认断言
+        validate:
+          - eq: [success,true]
+          - eq: [message, "成功"]
+        #用例前置步骤，需要提取其他模块方法，使用模块名.方法名称，本模块方法，直接填入本模块方法名称,暂时未实现
+        setup_hooks: []
+        #用例后置步骤，需要提取其他模块方法，使用模块名.方法名称，本模块方法，直接填入本模块方法名称暂时未实现
+        teardown_hooks: []
+  - passError:
+      name: "密码错误"
+      request:
+        url: /test/login
+        method: POST
+        json: {
+          username: "admin",
+          password: "admin1"
+        }
+        validate:
+          - eq: [ success,false ]
+          - eq: [ mssage, "用户名或者密码错误" ]
+- projectCases:
+    #用例方法名称
+    - getAll:
+        #用例名称
+        name: "查询所有项目信息"
+        #请求内容
+        request:
+          url: projectservice/project/findAll
+          method: get
+          validate:
+            - eq: [success,true]
+            - eq: [message, "成功"]
+          setup_hooks: []
+          teardown_hooks: []
+    - pageProject:
+        #用例名称
+        name: "分页所有项目信息"
+        #请求内容
+        request:
+          url: projectservice/project/pageProject/1/2
+          method: get
+          validate:
+            - eq: [ success,true ]
+            - eq: [ message, "成功" ]
+          setup_hooks: [ ]
+          teardown_hooks: [ ]
+    - pageProjectCondition:
+        #用例名称
+        name: "条件分页所有项目信息"
+        #请求内容
+        request:
+          header: {
+            Content-Type: application/json
+          }
+          url: projectservice/project/pageProjectCondition/1/5
+          method: post
+          json: {
+              title: "厨房安全"
+          }
+          validate:
+            - eq: [ success,true ]
+            - eq: [ message, "成功" ]
+          setup_hooks: [ ]
+          teardown_hooks: [ ]

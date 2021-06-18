@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="厨房安全v1.0">
+  <test thread-count="5" name="kitchen_api">
+    <classes>
+      <class name="com.helinfengxs.cases.LoginCases01">
+      </class>
+
+    </classes>
+  </test> <!-- kitchen_api -->
+  <listeners>
+    <listener class-name="com.helinfengxs.util.ZTestReport"/>
+  </listeners>
+</suite> <!-- Default Suite -->
