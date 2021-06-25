@@ -96,10 +96,19 @@ public class Util {
      */
     public static CaseRequestParam getCaseData(HashMap<String,Object> loginData,String caseName){
         CaseRequestParam params = new CaseRequestParam();
-
-        Map loginCorrect = (Map)loginData.get(caseName);
-        Map request = (Map)loginCorrect.get("request");
-        Object nameObject = loginCorrect.get("name");
+        Object modlue = loginData.get(caseName);
+        Map modlueData = null;
+        if (modlue != null) {
+            modlueData  = (Map)modlue;
+        }else {
+            throw  new RuntimeException("获取模块数据为空");
+        }
+        Object ask = modlueData.get("request");
+        Map request = null;
+        if(ask != null){
+          request  = (Map)ask;
+        }
+        Object nameObject = modlueData.get("name");
 
         if(nameObject != null){
             String name = String.valueOf(nameObject);

@@ -8,17 +8,12 @@
   "required": [
     "success",
     "code",
-    "message",
     "data"
   ],
   "properties": {
     "success": {
       "type": "boolean",
-      "enum": [false]
-    },
-    "message": {
-      "type": "string",
-      "maxLength": 5
+      "enum": [true]
     },
     "code": {
       "type": "integer",

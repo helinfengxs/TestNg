@@ -25,7 +25,7 @@ public class EmployeesCreateCases  {
         //传入所有模块数据对象，再根据yaml文件中的用例方法名获取到获取单个用例数据，
         CaseRequestParam loginCorrect = Util.getCaseData(loginData,"employeesCreate");
         Response response = Util.sendRequest(loginCorrect);
-
+        System.out.println(response.asString());
 
 //        TestStep.requestBody(loginCorrect.getUrl(),s);
 //        Map body = (Map)loginCorrect.getParam().get("body");
