@@ -1,4 +1,0 @@
-[2021-06-18 14:41:52.065]-- Could not update test fixture: test fixture with uuid 531f4872-12b2-4e0e-986e-69671561715a not found
-[2021-06-18 14:41:52.071]-- Could not stop test fixture: test fixture with uuid 531f4872-12b2-4e0e-986e-69671561715a not found
-[2021-06-18 14:41:55.146]-- Could not stop test container: container with uuid 670331c1-a762-4bf4-aff9-54ea65a937fe not found
-[2021-06-18 14:41:55.146]-- Could not write test container: container with uuid 670331c1-a762-4bf4-aff9-54ea65a937fe not found

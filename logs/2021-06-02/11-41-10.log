@@ -1,8 +1,0 @@
-[2021-06-02 11:41:15.093]-- 请求地址:【projectservice/project/pageProjectCondition/1/5】   请求方式：post 参数:{json={title=厨房安全}}  期望结果：[{eq=[success, true]}, {eq=[message, 成功]}]  实际结果：<html>
-<head><title>302 Found</title></head>
-<body bgcolor="white">
-<center><h1>302 Found</h1></center>
-<hr><center>nginx</center>
-</body>
-</html>
- 测试结果：失败

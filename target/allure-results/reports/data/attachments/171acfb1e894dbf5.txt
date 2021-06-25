@@ -1,5 +1,0 @@
-请求接口地址：/user/center/v1/perm/grant
-请求方式：post
-请求头部：{"Content-Type":"application/json"}
-请求参数：{"requestId":"","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJjbGllbnRUeXBlIjoiVVNFUiIsImxvZ2luTmFtZSI6Iui2hee6p-euoeeQhuWRmCIsImV4cCI6MTYyNDAxNjg0NywibG9naW5ObyI6ImJVWlJieUQ2aFgifQ.zSuE6G9ouCT2d6HuOFgZ3ekVOjYms9ocYSVipBrMq2xOm38VlV_476LnW9Utw7MTfMM8cvJPZTogNEsvRt-D4booHI191rkRtfgNvz8ngqHSZBWXFEIKVTyrjbQNPxEmVFujFAtNlvFwsZX4mUvwbX9hJvFKyYaemhir_hofoQvr-YKwyCLq6Bj39k9pc4iIikqe7-V5BCzZ3XSQ_zCyz-o03RkNGCQJ0t8GJrFdTAmVJuVRIro1ASvGdgNnTq4GohQQAgxas7PtRSeRTWqOMpvfwD2Ci22wYhIxnxMN3cIAuZ4W-ZjG6lYqJhk0AvZxJd1JHItCvYMhVYcDm2D8xQ","tenantCode":"System","assignOwner":"System","permCodes":["perm_manager_333","perm_query"]}
-期望结果：{eq=[success, true]}{eq=[code, 0]}

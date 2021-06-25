@@ -1,4 +1,0 @@
-[2021-06-18 11:01:42.417]-- Could not update test fixture: test fixture with uuid 2a52560a-4a99-4451-be49-352adc15aafb not found
-[2021-06-18 11:01:42.423]-- Could not stop test fixture: test fixture with uuid 2a52560a-4a99-4451-be49-352adc15aafb not found
-[2021-06-18 11:01:42.833]-- Could not stop test container: container with uuid ec6888bc-ad4f-4c48-a81f-a0487580784b not found
-[2021-06-18 11:01:42.834]-- Could not write test container: container with uuid ec6888bc-ad4f-4c48-a81f-a0487580784b not found
